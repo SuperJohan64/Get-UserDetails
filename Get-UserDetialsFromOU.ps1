@@ -1,4 +1,5 @@
-$CSVOutputPath = "$PSScriptRoot\Names-Output.csv"
+$TimeStamp = Get-Date -Format "yyyyMMddTHHmmssffff"
+$CSVOutputPath = "$PSScriptRoot\Output\Get-UserDetialsFromOU-$TimeStamp.csv"
 $Properties = "Name", "EmailAddress"
 
 $OU = Read-Host "Enter the OU path"
