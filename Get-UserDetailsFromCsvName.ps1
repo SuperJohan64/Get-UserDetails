@@ -1,5 +1,5 @@
 $TimeStamp = Get-Date -Format "yyyyMMddTHHmmssffff"
-$CSVOutputPath = "$PSScriptRoot\Output\Get-UserDetailsFromCsvName-$TimeStamp.csv"
+$CSVOutputPath = "$PSScriptRoot\Get-UserDetailsFromCsvName-$TimeStamp.csv"
 
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") 
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
